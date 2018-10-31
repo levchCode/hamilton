@@ -16,8 +16,9 @@ f = "1*(5*x0+6*x1+8*x2+10*x3)+900(1-(x0+x2))**2+900(1-(x1+x3))**2+900(1-(x0+x1))
 qubo = hamilton.generate(f)
 
 ```
-
 Returns a tuple (qubo itself(dict), max_index (int) for triple product cases)
+```
+
 ({'qubo': [
 {'index': [0], 'value': '-1795'},
 {'index': [1], 'value': '-1794'},
@@ -29,6 +30,7 @@ Returns a tuple (qubo itself(dict), max_index (int) for triple product cases)
 {'index': [2, 3], 'value': '1800'}
 ],
 'p': 'p qubo 0 4 4 4'}, 0)
+```
 
-##Dealing with triples
+## Dealing with triples
 Coming soon!
